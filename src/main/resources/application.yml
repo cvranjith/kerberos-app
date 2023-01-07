@@ -1,0 +1,9 @@
+server:
+    port: 8080
+app:
+    service-principal: HTTP/myserver.localhost@EXAMPLE.COM
+    keytab-location: file://Users/RVIJAYAN/Documents/work/krb-test/myserver.localhost.keytab
+
+logging.level.org.springframework.security: TRACE
+
+server.servlet-path: /
